@@ -29,13 +29,5 @@
     "gulp-cssmin": "0.1.7",
     "gulp-uglify": "1.5.3",
     "rimraf": "2.5.2"
-  },
-  "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
-    "lite": "lite-server",
-    "postinstall": "typings install",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w",
-    "typings": "typings"
   }
 }
