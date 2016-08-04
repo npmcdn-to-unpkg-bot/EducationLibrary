@@ -15,6 +15,11 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EducationLibrary.DAL", "Edu
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "EducationLibrary.BAL", "EducationLibrary.BAL\EducationLibrary.BAL.xproj", "{3B678DC1-E8FF-4351-AE21-DCCCB1E38822}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScripts", "DBScripts", "{1F6CC8DC-10F8-4622-96A5-26D22D5DF76C}"
+	ProjectSection(SolutionItems) = preProject
+		DBScripts\MediaFileDB_1.2.sql = DBScripts\MediaFileDB_1.2.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
