@@ -8,6 +8,24 @@ namespace EducationLibrary.Api.Models
 {
     public class PreviewModel
     {
-        
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
+        public int AuthorId { get; set; }
+
+        public DateTime YearEdition { get; set; }
+
+        public double Rating { get; set; }
+
+        public int NumOfViews { get; set; }
+
+        public bool IsFavourite { get; set; }
+
+        public double BookmarkPosition { get; set; }
+
+        public double Length { get; set; }
+
+        public string Address { get; set; }
     }
 }

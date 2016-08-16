@@ -9,6 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using AutoMapper;
 using EducationLibrary.Api.Mapper;
+using EducationLibrary.Abstract;
+using EducationLibrary.Services;
 
 namespace EducationLibrary.Api
 {
@@ -40,6 +42,7 @@ namespace EducationLibrary.Api
             services.AddApplicationInsightsTelemetry(Configuration);
 
             services.AddSingleton<IMapper>(MapperConfig.GetMapper());
+            services.AddTransient<IPreviewService, PreviewService>();
 
             services.AddMvc();
         }
