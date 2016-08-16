@@ -1,7 +1,10 @@
 /// <reference path="../../typings/globals/core-js/index.d.ts" />
 "use strict";
+//import { bootstrap }    from '@angular/platform-browser-dynamic';
+//import { AppComponent } from './app.component';
+//import { HTTP_PROVIDERS } from '@angular/http';
+//bootstrap(AppComponent, [HTTP_PROVIDERS]);
 var platform_browser_dynamic_1 = require('@angular/platform-browser-dynamic');
-var app_component_1 = require('./app.component');
-var http_1 = require('@angular/http');
-platform_browser_dynamic_1.bootstrap(app_component_1.AppComponent, [http_1.HTTP_PROVIDERS]);
+var app_module_1 = require('./app.module');
+platform_browser_dynamic_1.platformBrowserDynamic().bootstrapModule(app_module_1.AppModule);
 //# sourceMappingURL=main.js.map
