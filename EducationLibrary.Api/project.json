@@ -16,9 +16,7 @@
     "Microsoft.Extensions.Logging.Debug": "1.0.0",
     "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.0",
     "AutoMapper": "5.1.1",
-    "EducationLibrary.Entities": "1.0.0-*",
-    "EducationLibrary.Services": "1.0.0-*",
-    "EducationLibrary.Abstract": "1.0.0-*"
+    "EducationLibrary.Entities": "1.0.0-*"
   },
 
   "tools": {
